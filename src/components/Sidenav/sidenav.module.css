@@ -1,0 +1,23 @@
+.menuContainer{
+    margin-top: 20px;
+}
+
+.link{
+    margin: 0px 20px;
+    border-radius: 8px;
+}
+
+.linkIcon{
+    min-width: 34px !important
+}
+.linkText{
+    margin: 0px !important;
+}
+
+.linkText>span{
+    font-weight: 700 !important;
+}
+
+.active{
+    background-color: #dadada;
+}

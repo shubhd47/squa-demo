@@ -1,0 +1,28 @@
+.sliderContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.slideLeft{
+    position: absolute;
+    left: -20px;
+}
+
+.slideRight{
+    position: absolute;
+    right:-20px;
+}
+
+.sliderContent{
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px;
+    scroll-behavior: smooth;
+}
+
+.sliderContent>div{
+    display: inline-block;
+}
+

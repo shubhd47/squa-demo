@@ -1,0 +1,8 @@
+.skeletonContainer{
+    display: flex !important;
+    align-items: center;
+}
+
+.skeletonContainer>span{
+    margin: 0px 10px;
+}
